@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+    color: #000000;
+}
+body{
+    background-color:#adc2d8;
+    
+}
+.container{
+    width:70%;
+   /* border:1px solid black; */
+    margin:auto;
+    height: 100vh;
+    
+}
+li, a ,button{
+    font-family:"Montserrat",sans-serif;
+    font-weight: 100;
+    font-size: 9px;
+    text-decoration: none;
+}
+header{
+    padding:0;
+    margin:0;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 10px;
+    
+}
+.logo{
+    cursor:pointer;
+
+}
+.navlinks{
+    list-style: none;
+    
+}
+.navlinks li{
+    display: inline-block;
+    padding:0px 20px;
+}
+.navlinks li a{
+    transition:all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color:rgb(219, 165, 55);
+}
+.mainGlass{
+    font-size: 20px;
+    color:#1E79A8;
+    font-weight: 600;
+}
+.icons{
+   list-style: none;
+    
+}
+.fa-brands{
+    font-size:13px;
+}
+.icons li{
+    display: inline-block;
+    padding:0px 10px;
+}
+.line{
+    width:100%;
+    height: 1px;
+    background: black;
+    margin:auto;
+    padding:0px 10px;
+    opacity: 0.1;
+  }
+  .maincontent{
+    /* margin-top: 50px; */
+    width:90%;
+    height:80vh;
+    background-image: url("../Image/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+  }
+  .maincontent .glassText{
+    position: absolute;
+    top:18%;
+    left:40%;
+    font-family: "montserrat",sans-serif;
+    background-color:none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+  }
+  .maincontent .glassText2{
+    position: absolute;
+    top:78%;
+    left:38%;
+    font-family: "montserrat",sans-serif;
+    background-color:none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+  }
+.line2{
+    width:90%;
+    height: 1px;
+    background: black;
+    margin:0px 40px;
+    padding:0px 10px;
+    opacity: 0.1;
+    position: absolute;
+    top:92%;
+   }
+   .getyours{
+    position: absolute;
+    top: 89%;
+   left:39%;
+   padding:10px 80px;
+   font-weight:500;
+   }
+   button{
+    background-color: #000000;
+    color:#ffffff;
+    font-weight:500;
+    
+
+   }
+   .fa-facebook{
+    color:#3b5998;
+   }
+   .fa-instagram{
+    color:#8a3ab9 ;
+   }
+   .fa-twitter{
+    color: #00acee;
+   }
+.fa-youtube{
+    color:#CD201F;
+}
