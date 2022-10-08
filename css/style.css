@@ -48,7 +48,7 @@ header{
     transition:all 0.3s ease 0s;
 }
 .navlinks li a:hover{
-    color:rgb(219, 165, 55);
+    color:#ffffff;
 }
 .mainGlass{
     font-size: 20px;
